@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.benar_section{
+    background-image: linear-gradient(rgb(0,0,0,0.0), rgb(0,0,0,0.7)), url(images/bg.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.benar_text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.benar_text h1{
+    color: #fff;
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.benar_text p{
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.button{
+    color: #fff;
+    background-color: #FF5959;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-weight: 700;
+}
+.pament_section{
+    text-align: center;
+    margin-top: 100px;
+}
+.pament_section h1{
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.pament_section p{
+    color: #ccc;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+.amount_section{
+    display: flex;
+    font-size: 30px;
+    font-weight: 700;
+}
+.amount{
+    background-color: rgba(204, 204, 204, 0.13);
+    padding: 30px;
+    border-radius: 5px;
+    margin-left: 98px;
+    margin-bottom: 60px;
+}
+.bg{
+    background-color: #ff59598c;
+    border: 2px solid #FF5959;
+}
+.other_pat{
+    color: rgba(51, 51, 51, 0.247); 
+}
+.other_pat h3::after{
+    content: '';
+    display: block;
+    background-color: rgba(51, 51, 51, 0.267);
+    width: 80%;
+    height: 2px;
+    margin-left: 10%;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.plan_section{
+    margin-top: 100px;
+    text-align: center;
+}
+.plan_section h1{
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.plan_section p{
+    color: #ccc;
+    font-size: 18px;
+    margin-bottom: 100px;
+}
+.plan_poant{
+    text-align: left;
+    width: 350px;
+    height: 350px;
+    background: #ccc;
+    margin-left: 43px;
+    padding: 30px 20px;
+    border-radius: 8px;
+    margin-bottom: 100px;
+
+}
+.plan_poant h1{
+    font-size: 30px;
+}
+.plan_poant img{
+    margin-bottom: 30px;
+}
+.plan_poant p{
+    font-size: 16px;
+    line-height: 30px;
+}
+.bg_1{
+    background-color: #707070ad;
+}
+.bg_2{
+    background-color: #ff5959a1;
+}
+.bg_3{
+    background-color: #ce69699c;
+}
+.about_text{
+    width: 45%;
+    margin-left: 5%;
+}
+.about_text h1{
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 35px;
+}
+.about_text p{
+    color: #ccc;
+    font-size: 16px;
+    margin-bottom: 35px;
+}
+.about_images{
+    width: 45%;
+}
+.about_images img{
+    margin-left: 3%;
+    border-radius: 5px;
+}
+.img_galrye{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.img_galrye h1{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 50px;
+}
+.img img{
+    width: 30%;
+    margin-top: 50px;
+    margin-left: 2.5%;
+    border-radius: 10px;
+}
+#submit{
+    text-align: center;
+}
+#submit h1{
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+#submit p{
+    color: #ccc;
+    font-weight: 400;
+    line-height: 23px;
+    margin-bottom: 60px;
+}
+.input_box{
+    background-color: rgba(255, 99, 71, 0.562);
+    padding: 60px 0px;
+    width: 80%;
+    margin-left: 10%;
+}
+.input_sbmit{
+    width: 40%;
+    margin-left: 30%;
+    height: 40px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+input{
+    height: 100%;
+    width: 67%;
+    border: none;
+    float: left;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    outline: none;
+    background-color: #ccc;
+    padding-left: 3%;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+button{
+    height: 100%;
+    width: 30%;
+    border: none;
+    float: left;
+    background: transparent;
+    background-color: #FF5959;
+    color: #fff;
+    font-size: 22px;
+    cursor: pointer;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+footer{
+    background-color: #000;
+    height: 250px;
+    margin-top: 100px;
+    text-align: center;
+}
+footer h1{
+    color: tomato;
+    font-size: 50px;
+    padding-top: 80px;
+}
+footer p{
+    color: #fff;
+}
